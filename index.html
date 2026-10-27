@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muster Reinigung | Sauber. Zuverlässig. Einfach.</title>
+<meta name="description" content="Demo-Website für einen fiktiven Reinigungsservice.">
+<style>
+:root{--ink:#142a25;--green:#187a5b;--mint:#e9f7f0;--cream:#fbfaf6;--muted:#64736d;--line:#dce8e1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+.demo{background:#fff0c7;color:#614a10;text-align:center;padding:9px 16px;font-size:13px;font-weight:700}
+header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px max(6vw,22px);background:#fff}
+.logo{font-size:20px;font-weight:850;letter-spacing:-.6px}.logo span{color:var(--green)}nav{display:flex;gap:24px;align-items:center}a{color:inherit;text-decoration:none}nav a{font-size:14px;font-weight:650}.btn{display:inline-block;background:var(--green);color:white;padding:12px 18px;border-radius:9px;font-weight:750;border:0;cursor:pointer}
+.hero{padding:74px max(6vw,22px) 68px;background:linear-gradient(120deg,#eef8f2 0%,#f8fbf7 60%,#e0f1e8 100%);display:grid;grid-template-columns:1.1fr .9fr;gap:45px;align-items:center}
+.eyebrow{color:var(--green);font-size:13px;font-weight:850;text-transform:uppercase;letter-spacing:1.5px}
+h1{font-size:clamp(38px,5vw,64px);line-height:1.05;letter-spacing:-2.5px;margin:14px 0 20px;max-width:650px}
+.hero p{font-size:18px;color:#52645d;max-width:570px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}.btn.secondary{background:white;color:var(--green);border:1px solid var(--line)}
+.visual{min-height:330px;border-radius:26px;background:linear-gradient(145deg,#cfe9db,#f5fbf6);padding:24px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.visual-card{background:#fff;border-radius:18px;padding:24px;width:min(100%,330px);box-shadow:0 18px 45px #174b3517;transform:rotate(2deg)}
+.spark{font-size:55px}.visual-card h3{font-size:23px;margin:6px 0}.visual-card p{font-size:14px;margin:0}.check{display:flex;gap:10px;margin-top:14px;font-size:14px}.check b{color:var(--green)}
+section{padding:68px max(6vw,22px)}.section-head{text-align:center;max-width:650px;margin:0 auto 34px}.section-head h2{font-size:clamp(28px,3vw,40px);line-height:1.15;letter-spacing:-1px;margin:8px 0 12px}.section-head p{color:var(--muted);margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1100px;margin:auto}.card{padding:25px;border:1px solid var(--line);border-radius:17px;background:#fff}.icon{width:48px;height:48px;border-radius:13px;background:var(--mint);display:grid;place-items:center;font-size:23px}.card h3{margin:16px 0 7px}.card p{margin:0;color:var(--muted);font-size:15px}
+.about{background:#fff;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.about h2{font-size:clamp(28px,3vw,40px);line-height:1.15;letter-spacing:-1px;margin:10px 0}.about p{color:var(--muted)}.ticks{padding:0;list-style:none}.ticks li{margin:12px 0}.ticks li:before{content:"✓";color:var(--green);font-weight:900;margin-right:10px}
+.contact{background:var(--mint)}.contact-grid{max-width:1000px;margin:auto;display:grid;grid-template-columns:.8fr 1.2fr;gap:38px;align-items:start}.contact h2{font-size:38px;line-height:1.1;margin:8px 0}.contact p{color:var(--muted)}form{background:white;padding:25px;border-radius:17px;border:1px solid var(--line)}label{display:block;font-size:13px;font-weight:750;margin:12px 0 5px}input,select,textarea{width:100%;padding:12px;border:1px solid #ccd9d1;border-radius:8px;font:inherit;background:#fff}textarea{min-height:100px;resize:vertical}.form-note{font-size:12px;color:var(--muted)}footer{padding:24px max(6vw,22px);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+@media(max-width:760px){nav{display:none}.hero,.about,.contact-grid{grid-template-columns:1fr}.hero{padding-top:48px}.visual{min-height:280px}.cards{grid-template-columns:1fr}.about{gap:18px}section{padding-top:52px;padding-bottom:52px}h1{letter-spacing:-1.5px}}
+</style>
+</head>
+<body>
+<div class="demo">DEMO-WEBSITE · Fiktives Beispiel · Keine echte Firma oder Kontaktadresse</div>
+<header><a class="logo" href="#">Muster<span>Reinigung</span></a><nav><a href="#leistungen">Leistungen</a><a href="#ueber-uns">Über uns</a><a href="#kontakt">Kontakt</a></nav><a class="btn" href="#kontakt">Angebot anfragen</a></header>
+<main>
+<section class="hero">
+<div><div class="eyebrow">Sauberkeit, auf die Sie sich verlassen können</div><h1>Mehr Zeit für das, was wirklich zählt.</h1><p>Wir halten Ihre Räume sauber und gepflegt – mit einem freundlichen Team, klarer Absprache und einem Blick fürs Detail.</p><div class="hero-actions"><a class="btn" href="#kontakt">Kostenloses Angebot anfragen</a><a class="btn secondary" href="#leistungen">Unsere Leistungen</a></div></div>
+<div class="visual"><div class="visual-card"><div class="spark">✨</div><h3>Frisch. Sauber. Wohlfühlen.</h3><p>Ein gepflegter Raum macht den Unterschied.</p><div class="check"><b>✓</b><span>Individuell abgestimmte Reinigung</span></div><div class="check"><b>✓</b><span>Flexible Terminvereinbarung</span></div><div class="check"><b>✓</b><span>Sorgfältig bis ins Detail</span></div></div></div>
+</section>
+<section id="leistungen"><div class="section-head"><div class="eyebrow">Was wir tun</div><h2>Passende Reinigung für Ihren Alltag</h2><p>Ein Beispielangebot für unterschiedliche Räume und Bedürfnisse.</p></div><div class="cards">
+<article class="card"><div class="icon">🏠</div><h3>Haushaltsreinigung</h3><p>Regelmäßige Pflege von Wohnräumen, Küche und Bad – nach Ihrem Bedarf abgestimmt.</p></article>
+<article class="card"><div class="icon">🏢</div><h3>Büroreinigung</h3><p>Gepflegte Arbeitsplätze, Besprechungsräume und Gemeinschaftsflächen für Ihr Team.</p></article>
+<article class="card"><div class="icon">🧹</div><h3>Treppenhausreinigung</h3><p>Saubere Eingangsbereiche und Treppenhäuser für einen guten ersten Eindruck.</p></article>
+</div></section>
+<section class="about" id="ueber-uns"><div><div class="eyebrow">Über Muster Reinigung</div><h2>Ordentlich arbeiten. Offen kommunizieren.</h2><p>Wir glauben, dass gute Reinigung mit Vertrauen beginnt. Deshalb stimmen wir Umfang und Rhythmus vorab mit Ihnen ab und legen Wert auf zuverlässige Abläufe.</p><ul class="ticks"><li>Individuelle Absprachen</li><li>Klare Leistungsbeschreibung</li><li>Sorgfältige Arbeit mit Blick fürs Detail</li></ul></div><div class="visual"><div class="visual-card"><div class="eyebrow">Unser Versprechen</div><h3>Sauberkeit ohne Rätselraten.</h3><p>Sie wissen, was vereinbart ist – und worauf Sie sich verlassen können.</p></div></div></section>
+<section class="contact" id="kontakt"><div class="contact-grid"><div><div class="eyebrow">Nächster Schritt</div><h2>Was sollen wir für Sie reinigen?</h2><p>Füllen Sie das Demformular aus. Es sendet keine Daten und ist nur zur Vorschau gedacht.</p><p><strong>E-Mail:</strong> demo@example.invalid<br><strong>Telefon:</strong> +49 000 0000000<br><span class="form-note">Platzhalter – bitte nicht verwenden.</span></p></div>
+<form id="demoForm"><label for="service">Gewünschte Leistung</label><select id="service"><option>Bitte auswählen</option><option>Haushaltsreinigung</option><option>Büroreinigung</option><option>Treppenhausreinigung</option></select><label for="name">Ihr Name</label><input id="name" placeholder="Max Mustermann" required><label for="email">E-Mail-Adresse</label><input id="email" type="email" placeholder="max@beispiel.de" required><label for="message">Worum geht es?</label><textarea id="message" placeholder="Beschreiben Sie kurz Ihren Bedarf …"></textarea><button class="btn" type="submit" style="margin-top:15px">Demo-Anfrage testen</button><p class="form-note">Demo: Es werden keine Angaben übertragen oder gespeichert.</p><p id="formResult" aria-live="polite"></p></form></div></section>
+</main>
+<footer><span>© Muster Reinigung – fiktives Demo-Projekt</span><span>Impressum und Datenschutz müssen vor echter Veröffentlichung ergänzt und geprüft werden.</span></footer>
+<script>document.getElementById('demoForm').addEventListener('submit',function(e){e.preventDefault();document.getElementById('formResult').textContent='Test erfolgreich: Das Formular reagiert, versendet aber keine Daten.';});</script>
+</body></html>
