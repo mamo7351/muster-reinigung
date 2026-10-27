@@ -1,1 +1,147 @@
 
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muster Reinigung | Sauber und zuverlässig</title>
+<meta name="description" content="Reinigungsservice für Wohnungen, Büros und Treppenhäuser.">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:#18352b;background:#f8fbf8;line-height:1.6}
+.demo{background:#fff0c7;color:#614a10;text-align:center;padding:9px;font-size:13px}
+header{background:#fff;padding:20px 6%;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
+.logo{font-size:22px;font-weight:bold}.logo span{color:#16805c}
+nav a{margin:0 8px;text-decoration:none;color:#18352b;font-weight:bold}
+.btn{display:inline-block;background:#16805c;color:white;padding:12px 18px;border-radius:8px;text-decoration:none;border:0;font-weight:bold;cursor:pointer}
+.hero{padding:65px 7%;background:#eaf7ef;display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}
+h1{font-size:clamp(36px,5vw,58px);line-height:1.1;margin:12px 0}
+.hero p{font-size:18px;color:#52645c}
+.tag{color:#16805c;font-weight:bold;text-transform:uppercase;letter-spacing:1px;font-size:13px}
+.visual{background:#fff;border-radius:20px;padding:30px;text-align:center;box-shadow:0 10px 35px #18352b12}
+.visual .emoji{font-size:60px}
+section{padding:60px 7%}
+.heading{text-align:center;max-width:650px;margin:0 auto 30px}
+.heading h2,.about h2{font-size:34px;line-height:1.2}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff;border:1px solid #dce9e0;border-radius:14px;padding:25px}
+.card .emoji{font-size:32px}
+.card p,.about p{color:#627169}
+.about{background:#fff}
+.contact{background:#eaf7ef}
+.contact-inner{max-width:700px;margin:auto}
+form{background:#fff;padding:25px;border-radius:14px}
+label{display:block;font-weight:bold;margin:12px 0 5px}
+input,select,textarea{width:100%;padding:12px;border:1px solid #ccd9d0;border-radius:7px;font:inherit}
+textarea{min-height:90px}
+.note{font-size:12px;color:#64736b}
+footer{padding:25px 7%;font-size:13px;color:#64736b}
+@media(max-width:700px){
+ .hero{grid-template-columns:1fr;padding:45px 6%}
+ .cards{grid-template-columns:1fr}
+ section{padding:45px 6%}
+ header{align-items:flex-start}
+ nav{width:100%}
+}
+</style>
+</head>
+<body>
+<div class="demo">DEMO-WEBSITE · Fiktives Unternehmen · Beispieldaten</div>
+
+<header>
+  <div class="logo">Muster<span>Reinigung</span></div>
+  <nav>
+    <a href="#leistungen">Leistungen</a>
+    <a href="#ueber">Über uns</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+  <a class="btn" href="#kontakt">Angebot anfragen</a>
+</header>
+
+<main>
+<section class="hero">
+  <div>
+    <div class="tag">Sauberkeit, auf die Sie sich verlassen können</div>
+    <h1>Mehr Zeit für das, was wirklich zählt.</h1>
+    <p>Wir halten Ihre Räume sauber und gepflegt – mit sorgfältiger Arbeit und klaren Absprachen.</p>
+    <a class="btn" href="#kontakt">Kostenloses Angebot anfragen</a>
+  </div>
+  <div class="visual">
+    <div class="emoji">✨</div>
+    <h2>Frisch. Sauber. Wohlfühlen.</h2>
+    <p>Ein gepflegter Raum macht den Unterschied.</p>
+    <p>✓ Individuelle Reinigung<br>✓ Flexible Termine<br>✓ Sorgfältige Arbeit</p>
+  </div>
+</section>
+
+<section id="leistungen">
+  <div class="heading">
+    <div class="tag">Unsere Leistungen</div>
+    <h2>Reinigung passend zu Ihrem Alltag</h2>
+    <p>Ein Beispielangebot für unterschiedliche Räume und Bedürfnisse.</p>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <div class="emoji">🏠</div>
+      <h3>Haushaltsreinigung</h3>
+      <p>Regelmäßige Reinigung von Wohnräumen, Küche und Bad.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🏢</div>
+      <h3>Büroreinigung</h3>
+      <p>Gepflegte Arbeitsplätze, Besprechungsräume und Gemeinschaftsflächen.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🧹</div>
+      <h3>Treppenhausreinigung</h3>
+      <p>Saubere Eingangsbereiche und Treppenhäuser für einen guten Eindruck.</p>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="ueber">
+  <div class="tag">Über uns</div>
+  <h2>Ordentlich arbeiten. Offen kommunizieren.</h2>
+  <p>Gute Reinigung beginnt mit Vertrauen. Deshalb stimmen wir Umfang und Termine individuell ab und achten auf sorgfältige Abläufe.</p>
+  <p>✓ Klare Absprachen<br>✓ Individuelle Leistungen<br>✓ Blick fürs Detail</p>
+</section>
+
+<section class="contact" id="kontakt">
+  <div class="contact-inner">
+    <div class="tag">Kontakt</div>
+    <h2>Was sollen wir für Sie reinigen?</h2>
+    <p>Füllen Sie das Formular aus, um die Demo zu testen.</p>
+    <form id="demoForm">
+      <label for="service">Gewünschte Leistung</label>
+      <select id="service">
+        <option>Bitte auswählen</option>
+        <option>Haushaltsreinigung</option>
+        <option>Büroreinigung</option>
+        <option>Treppenhausreinigung</option>
+      </select>
+      <label for="name">Ihr Name</label>
+      <input id="name" placeholder="Ihr Name" required>
+      <label for="email">E-Mail-Adresse</label>
+      <input id="email" type="email" placeholder="name@example.com" required>
+      <label for="message">Ihre Nachricht</label>
+      <textarea id="message" placeholder="Beschreiben Sie Ihren Bedarf"></textarea>
+      <button class="btn" style="margin-top:15px" type="submit">Demo testen</button>
+      <p class="note">Demo: Ihre Angaben werden nicht versendet oder gespeichert.</p>
+      <p id="result" aria-live="polite"></p>
+    </form>
+    <p class="note">Kontaktangaben, Impressum und Datenschutz müssen vor einer echten Veröffentlichung ergänzt und geprüft werden.</p>
+  </div>
+</section>
+</main>
+
+<footer>© Muster Reinigung – fiktives Demo-Projekt.</footer>
+
+<script>
+document.getElementById("demoForm").addEventListener("submit",function(event){
+  event.preventDefault();
+  document.getElementById("result").textContent =
+    "Test erfolgreich! Das Formular versendet keine Daten.";
+});
+</script>
+</body>
+</html>
